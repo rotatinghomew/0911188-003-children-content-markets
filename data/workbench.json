@@ -1,0 +1,139 @@
+{
+  "as_of": "2026-06-15",
+  "releases": [
+    {
+      "id": "harbor-zh-2",
+      "series": "harbor",
+      "market": "cn",
+      "starts": "2026-06-10",
+      "ends": null
+    },
+    {
+      "id": "harbor-zh-1",
+      "series": "harbor",
+      "market": "cn",
+      "starts": "2026-05-12",
+      "ends": "2026-06-10"
+    },
+    {
+      "id": "harbor-es-1",
+      "series": "harbor",
+      "market": "es",
+      "starts": "2026-06-05",
+      "ends": null
+    },
+    {
+      "id": "forest-es-1",
+      "series": "forest",
+      "market": "es",
+      "starts": "2026-06-01",
+      "ends": null
+    }
+  ],
+  "sessions": [
+    {
+      "id": "p1",
+      "release": "harbor-es-1",
+      "day": "2026-06-08",
+      "cohort": "survey-es-week-23",
+      "start": "manual",
+      "consented": true,
+      "seconds": 170
+    },
+    {
+      "id": "p2",
+      "release": "harbor-es-1",
+      "day": "2026-06-09",
+      "cohort": "survey-es-week-23",
+      "start": "auto",
+      "consented": true,
+      "seconds": 230
+    },
+    {
+      "id": "p3",
+      "release": "harbor-es-1",
+      "day": "2026-06-11",
+      "cohort": "survey-es-week-24",
+      "start": "manual",
+      "consented": false,
+      "seconds": 120
+    },
+    {
+      "id": "p4",
+      "release": "harbor-zh-1",
+      "day": "2026-06-02",
+      "cohort": "survey-cn-week-23",
+      "start": "manual",
+      "consented": true,
+      "seconds": 180
+    },
+    {
+      "id": "p5",
+      "release": "harbor-zh-2",
+      "day": "2026-06-12",
+      "cohort": "survey-cn-week-24",
+      "start": "manual",
+      "consented": true,
+      "seconds": 60
+    },
+    {
+      "id": "p6",
+      "release": "forest-es-1",
+      "day": "2026-06-12",
+      "cohort": "survey-es-week-24",
+      "start": "manual",
+      "consented": true,
+      "seconds": 140
+    }
+  ],
+  "cohorts": [
+    {
+      "id": "survey-es-week-23",
+      "market": "es",
+      "invited": 10,
+      "responded": 3
+    },
+    {
+      "id": "survey-es-week-24",
+      "market": "es",
+      "invited": 7,
+      "responded": 4
+    },
+    {
+      "id": "survey-cn-week-23",
+      "market": "cn",
+      "invited": 9,
+      "responded": 5
+    },
+    {
+      "id": "survey-cn-week-24",
+      "market": "cn",
+      "invited": 11,
+      "responded": 8
+    }
+  ],
+  "ballots": [
+    {
+      "id": "b1",
+      "cohort": "survey-es-week-23",
+      "release": "harbor-es-1",
+      "wants_more": true
+    },
+    {
+      "id": "b2",
+      "cohort": "survey-es-week-24",
+      "release": "forest-es-1",
+      "wants_more": false
+    },
+    {
+      "id": "b3",
+      "cohort": "survey-cn-week-23",
+      "release": "harbor-zh-1",
+      "wants_more": true
+    }
+  ],
+  "slots": {
+    "cn": 1,
+    "es": 1
+  }
+}
